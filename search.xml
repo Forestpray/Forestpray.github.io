@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/11/19/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>bilibili视频嵌入</title>
+    <url>/2022/11/26/bilibili%E8%A7%86%E9%A2%91%E5%B5%8C%E5%85%A5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=462522917&bvid=BV1pL411b7oY&cid=394579995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<iframe src="//player.bilibili.com/player.html?aid=375588815&bvid=BV1so4y1m7U5&cid=339262048&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+<iframe src="//player.bilibili.com/player.html?aid=375588815&bvid=BV1so4y1m7U5&cid=339262048&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+
+<iframe src="//player.bilibili.com/player.html?aid=375588815&bvid=BV1so4y1m7U5&cid=339262048&page=1&high_quality=1&danmaku=0&as_wide=1"      allowfullscreen="allowfullscreen" width="100%" height="500"  scrolling="no" frameborder="0" > </iframe>
+
+
+<p>BILIBILI 地址PC端参数<br>    &amp;high_quality=1   (1=最高画质 0=最低画质)<br>    &amp;danmaku=0   (1=打开弹幕 0=关闭弹幕)<br>iframe 参数<br>    allowfullscreen=”allowfullscreen” #移动端全屏<br>    sandbox=”allow-top-navigation allow-same-origin allow-forms allow-scripts” #禁止弹出网页</p>
+<p>属性</p>
+<p>值</p>
+<p>描述</p>
+<p>align</p>
+<p>left right top middle bottom</p>
+<p>不赞成使用。请使用样式代替。规定如何根据周围的元素来对齐此框架。</p>
+<p>frameborder</p>
+<p>10</p>
+<p>规定是否显示框架周围的边框。</p>
+<p>height</p>
+<p>pixels%</p>
+<p>规定 iframe 的高度。</p>
+<p>longdesc</p>
+<p>URL</p>
+<p>规定一个页面，该页面包含了有关iframe 的较长描述。</p>
+<p>marginheight</p>
+<p>pixels</p>
+<p>定义 iframe的顶部和底部的边距。</p>
+<p>marginwidth</p>
+<p>pixels</p>
+<p>定义 iframe的左侧和右侧的边距。</p>
+<p>name</p>
+<p>frame_name</p>
+<p>规定 iframe 的名称。</p>
+<p>sandbox</p>
+<p>“”allow-formsallow-same-originallow-scriptsallow-top-navigation</p>
+<p>启用一系列对 &lt;_iframe&gt; 中内容的额外限制。</p>
+<p>scrolling</p>
+<p>yesnoauto</p>
+<p>规定是否在 iframe中显示滚动条。</p>
+<p>seamless</p>
+<p>seamless</p>
+<p>规定 &lt;_iframe&gt; 看上去像是包含文档的一部分。</p>
+<p>src</p>
+<p>URL</p>
+<p>规定在 iframe中显示的文档的 URL。</p>
+<p>srcdoc</p>
+<p>HTML_code</p>
+<p>规定在 &lt;_iframe&gt; 中显示的页面的 HTML 内容。</p>
+<p>width</p>
+<p>pixels%</p>
+<p>定义 iframe 的宽度。</p>
+]]></content>
+      <tags>
+        <tag>video</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git复制库</title>
+    <url>/2022/11/20/git%E5%A4%8D%E5%88%B6%E5%88%AB%E4%BA%BA%E7%9A%84%E5%BA%93%E5%88%B0%E8%87%AA%E5%B7%B1%E5%BA%93/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h1><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h5 id="1-下载别人的项目源代码到本地。"><a href="#1-下载别人的项目源代码到本地。" class="headerlink" title="1. 下载别人的项目源代码到本地。"></a>1. 下载别人的项目源代码到本地。</h5><p>从github上复制项目的https链接。</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/23682762-cb229d347f35d8c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>image.png</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> target-project-url</span><br></pre></td></tr></table></figure>
+
+<p>这里target-project-url是你想更改的项目在github上的https链接。</p>
+<h5 id="2-删除该项目的默认git配置文件。"><a href="#2-删除该项目的默认git配置文件。" class="headerlink" title="2. 删除该项目的默认git配置文件。"></a>2. 删除该项目的默认git配置文件。</h5><p>项目的源代码下载完成之后你需要在项目的根目录中删除一个名为.git的文件夹。<br> 注意：该文件夹是隐藏文件，windows下可能会默认不显示，为了方便（作为程序员），这里用命令行进行删除。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> target-project </span><br></pre></td></tr></table></figure>
+
+<p>target-project为你下载的项目名称，上面的命令的意思是进入该目录。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ll -a</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://upload-images.jianshu.io/upload_images/23682762-517c6b003b17da2d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/505/format/webp" alt="img"></p>
+<p>image.png</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">rm -rf <span class="selector-class">.git</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="3-初始化git配置"><a href="#3-初始化git配置" class="headerlink" title="3.初始化git配置"></a>3.初始化git配置</h5><p>删除了别人的github之后，你需要创建属于自己的git配置。</p>
+<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line">npm <span class="keyword">init</span></span><br></pre></td></tr></table></figure>
+
+<p>在项目根目录中运行这个命令会创建.git文件夹，这就是一个初始化的git配置。</p>
+<h5 id="4-github上创建新的代码仓库。"><a href="#4-github上创建新的代码仓库。" class="headerlink" title="4.github上创建新的代码仓库。"></a>4.github上创建新的代码仓库。</h5><p>如果你是想把代码push到你的github上已有仓库中，这一个可以跳过，如果是想push到全新的仓库中，就需要在github上面创建新的代码仓库。</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/23682762-71afbe138a7b905a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>image.png</p>
+<h5 id="5-修改后的代码push到自己的指定repository中。"><a href="#5-修改后的代码push到自己的指定repository中。" class="headerlink" title="5.修改后的代码push到自己的指定repository中。"></a>5.修改后的代码push到自己的指定repository中。</h5><figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">add</span> .</span><br><span class="line">git commit -m <span class="string">&quot;My first commit.&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>到这一步，本地代码只是提交到了本地仓库，还没有被push到远端仓库。</p>
+<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line">git remote <span class="keyword">add</span> origin your-repository-url</span><br></pre></td></tr></table></figure>
+
+<p>上面这一行代码就是本篇文章<strong>最最重要的一个命令</strong>，这是远端仓库的路径，设置完之后origin就会指向github远端仓库，以后代码就会push到这里。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push -u origin master;</span><br></pre></td></tr></table></figure>
+
+<p>最后push本地更改的代码到origin（远端仓库）。<br> 这里 <code>-u</code>的作用就是你以后push代码的时候，可以直接用<code>git push</code>就可以把代码push到远端仓库 的mater分支中，方便了很多。</p>
+<p>链接：<a href="https://www.jianshu.com/p/e50cb1448a16">https://www.jianshu.com/p/e50cb1448a16</a><br>来源：简书</p>
+<h1 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h1><p>首先在GitHub上面创建新的仓库</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/20603316-39bfb2024a168f6f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>然后克隆别人GitHub上面的项目到本地</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/20603316-3add8a98f0741996.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>clone项目</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/20603316-b2bde12641217c76.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/253/format/webp" alt="img"></p>
+<p>git克隆</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/20603316-06fffdb2a95e5ab2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1059/format/webp" alt="img"></p>
+<p>克隆完成</p>
+<p>然后进入刚刚克隆下来的 .git 文件夹里面改一下 config 的 url （改为刚刚创建的仓库路径），即可推送到自己的仓库</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/20603316-1b92dc827c09160b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/20603316-a90dcccd2d052032.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1059/format/webp" alt="img"></p>
+<p>将你的代码上传到 Github 就可以了</p>
+<p>git push –set-upstream origin master</p>
+<p>链接：<a href="https://www.jianshu.com/p/3ed058178b17">https://www.jianshu.com/p/3ed058178b17</a><br>来源：简书</p>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>宝贝的愿望</title>
+    <url>/2022/11/20/%E5%AE%9D%E8%B4%9D%E7%9A%84%E6%84%BF%E6%9C%9B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p><img src="https://muziyangg.github.io/Blogimages/yuanwang.jpg" alt="yuanwang"></p>
+]]></content>
+      <tags>
+        <tag>情感</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>视频</title>
+    <url>/2022/11/20/%E8%A7%86%E9%A2%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/眼动训练.mp4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/行走训练.mp4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+
+
+
+
+<p><video src='https://muziyangg.github.io/movie/平衡训练.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' controls="controls" style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;"></video></p>
+<p><video src='https://muziyangg.github.io/movie/眼动训练.mp4' type='video/mp4' controls='controls'  width='100%' height='100%' controls="controls" style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;"></video></p>
+<p><video src="https://muziyangg.github.io/movie/眼动训练.mp4" controls="controls" style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;"> your browser does not support the video tag </video></p>
+<p><video src='https://www.5yun.org/video/14874.mp4' 
+       type='video/mp4' 
+       controls='controls'  
+       preload="auto"
+       width='100%' 
+       height='100%'><br></video></p>
+<div id="dplayer2" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer2"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://okjx.cc/?url=https://www.iqiyi.com/v_129q0w3wvbg.html?vfrm=pcw_home&vfrmblk=712211_dianying&vfrmrst=712211_dianying_image1","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+
+
+<div id="dplayer3" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer3"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"http://tpa-hcdn.iqiyi.com/videos/vts/20221115/dc/82/fdab2aeaa023beecab7126437814c336.ts?start=0&end=113929128&contentlength=113929128&sd=355208&qdv=2&qd_uid=1023108576&qd_vip=0&qd_src=01010031010000000000&qd_tm=1668929852861&qd_p=2ae0e6dd&qd_k=8cf8ed722ad967fb7fe24fbf7f31a22e&qd_index=prv&qd_tvid=3865336409304800&qd_sc=9efc187268323feea2baeb1888d3fbd9&bid=600&qyid=a13d1e0dd403e116a8f189b6696fb42f&qd_vipres=2&br=100","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+
+
+<div id="dplayer4" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer4"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://streamja.com/embed/ro62p","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+]]></content>
+      <tags>
+        <tag>视频</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>music测试</title>
+    <url>/2022/11/19/music%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>测试</p>
+<div>aaa</div>
+
+
+
+
+    <div id="aplayer-okFmNKba" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="3986040" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"
+    ></div>
+
+
+
+
+    <div id="aplayer-KAhFZxvi" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="627070825" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"
+    ></div>
+
+
+
+
+    <div id="aplayer-BlCiOVWB" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="001Mf4Ic1aNYYK" data-server="tencent" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="180px" data-preload="auto" data-theme="#ad7a86" data-order="random"
+    ></div>
+
+<p><a href="https://ks-xpc20.xpccdn.com/ced2c38d-f885-46b5-9661-6290f0c75255.mp4">https://ks-xpc20.xpccdn.com/ced2c38d-f885-46b5-9661-6290f0c75255.mp4</a></p>
+<div id="dplayer5" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer5"),"loop":true,"screenshot":true,"video":{"url":"https://ks-xpc20.xpccdn.com/ced2c38d-f885-46b5-9661-6290f0c75255.mp4"},"danmaku":{"id":"46190A32F63DFF2CF0A3BB0F3293636C","api":"https://api.prprpr.me/dplayer/","addition":["https://api.prprpr.me/dplayer/v3/bilibili?aid=17150441"]}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
+
+
+
+<div id="dplayer6" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer6"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://player.youku.com/embed/XNDQ3MzEwMjA3Ng==?client_id=53c06c7e23bff2b5&autoplay=1","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+
+
+<div id="dplayer7" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer7"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://pic.zlinblog.cn/video/%E7%A4%BE%E7%95%9C%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97-%E6%88%BF%E5%AD%90%E6%90%9E%E5%8D%AB%E7%94%9F.mp4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>music</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>训练视频</title>
+    <url>/2022/11/21/%E8%AE%AD%E7%BB%83%E8%A7%86%E9%A2%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>[TOC]</p>
+<p><a href="#%E5%B9%B3%E8%A1%A1%E8%AE%AD%E7%BB%83">平衡训练</a></p>
+<h6 id="眼动训练"><a href="#眼动训练" class="headerlink" title="眼动训练"></a>眼动训练</h6><div id="dplayer8" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer8"),"theme":"#FADFA3","loop":"yes","screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/眼动训练.mp4","pic":"https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/yiyuan.3vmwdfhjnyc0.webp"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<h6 id="行走训练"><a href="#行走训练" class="headerlink" title="行走训练"></a>行走训练</h6><div id="dplayer9" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer9"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/行走训练.mp4","pic":"https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/yiyuan.3vmwdfhjnyc0.webp"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<h6 id="扫视训练"><a href="#扫视训练" class="headerlink" title="扫视训练"></a>扫视训练</h6><div id="dplayer10" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer10"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/扫视训练.mp4","pic":"https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/yiyuan.3vmwdfhjnyc0.webp"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<h6 id="闭眼平衡训练"><a href="#闭眼平衡训练" class="headerlink" title="闭眼平衡训练"></a>闭眼平衡训练</h6><div id="dplayer11" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer11"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/闭眼平衡训练.mp4","pic":"https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/yiyuan.3vmwdfhjnyc0.webp"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<h6 id="步态稳定训练"><a href="#步态稳定训练" class="headerlink" title="步态稳定训练"></a>步态稳定训练</h6><div id="dplayer12" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer12"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/步态稳定训练.mp4","pic":"https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/yiyuan.3vmwdfhjnyc0.webp"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<h6 id="凝视稳定训练"><a href="#凝视稳定训练" class="headerlink" title="凝视稳定训练"></a>凝视稳定训练</h6><div id="dplayer13" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer13"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/凝视稳定训练.mp4","pic":"https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/yiyuan.3vmwdfhjnyc0.webp"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<h6 id="泡沫垫平衡训练"><a href="#泡沫垫平衡训练" class="headerlink" title="泡沫垫平衡训练"></a>泡沫垫平衡训练</h6><div id="dplayer14" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer14"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/泡沫垫平衡训练.mp4","pic":"https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/yiyuan.3vmwdfhjnyc0.webp"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<h6 id="平衡稳定训练"><a href="#平衡稳定训练" class="headerlink" title="平衡稳定训练"></a>平衡稳定训练</h6><div id="dplayer15" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer15"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/平衡稳定训练.mp4","pic":"https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/yiyuan.3vmwdfhjnyc0.webp"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<h6 id="视追踪训练"><a href="#视追踪训练" class="headerlink" title="视追踪训练"></a>视追踪训练</h6><div id="dplayer16" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer16"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/视追踪训练.mp4","pic":"https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/yiyuan.3vmwdfhjnyc0.webp"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<h6 id="平衡训练"><a href="#平衡训练" class="headerlink" title="平衡训练"></a>平衡训练</h6><div id="dplayer17" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer17"),"theme":"#FADFA3","loop":true,"screenshot":"yes","video":{"url":"https://muziyangg.github.io/movie/平衡训练.mp4","pic":"https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/yiyuan.3vmwdfhjnyc0.webp"},"danmaku":{"api":"https://api.prprpr.me/dplayer/","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+]]></content>
+      <tags>
+        <tag>训练视频</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试文本</title>
+    <url>/2022/11/19/%E6%B5%8B%E8%AF%95%E6%96%87%E6%9C%AC/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><div>aaa</div>
+
+<p><a href="https://pic.netbian.com/uploads/allimg/221115/153253-1668497573e1d2.jpg">https://pic.netbian.com/uploads/allimg/221115/153253-1668497573e1d2.jpg</a></p>
+<p><img src="https://cdn.staticaly.com/gh/muziyangg/myblogimage@main/img/qsx.3uo8mxfvkq00.webp" alt="qsx"></p>
+<h2 id="Page-Front-matter-用于页面配置"><a href="#Page-Front-matter-用于页面配置" class="headerlink" title="Page Front-matter 用于页面配置"></a>Page Front-matter 用于页面配置</h2><p>title:<br>date:<br>updated:<br>type:<br>comments:<br>description:<br>keywords:<br>top_img:<br>mathjax:<br>katex:<br>aside:<br>aplayer:<br>highlight_shrink:</p>
+<p>写法    解释<br>title    【必需】页面标题<br>date    【必需】页面创建日期<br>type    【必需】标签、分类和友情链接三个页面需要配置<br>updated    【可选】页面更新日期<br>description    【可选】页面描述<br>keywords    【可选】页面关键字<br>comments    【可选】显示页面评论模块(默认 true)<br>top_img    【可选】页面顶部图片<br>mathjax    【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)<br>katex    【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)<br>aside    【可选】显示侧边栏 (默认 true)<br>aplayer    【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置<br>highlight_shrink    【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)</p>
+<h2 id="Post-Front-matter-用于文章配置"><a href="#Post-Front-matter-用于文章配置" class="headerlink" title="Post Front-matter 用于文章配置"></a>Post Front-matter 用于文章配置</h2><p>title:<br>date:<br>updated:<br>tags:<br>categories:<br>keywords:<br>description:<br>top_img:<br>comments:<br>cover:<br>toc:<br>toc_number:<br>toc_style_simple:<br>copyright:<br>copyright_author:<br>copyright_author_href:<br>copyright_url:<br>copyright_info:<br>mathjax:<br>katex:<br>aplayer:<br>highlight_shrink:<br>aside:</p>
+<p>写法    解释<br>title    【必需】文章标题<br>date    【必需】文章创建日期<br>updated    【可选】文章更新日期<br>tags    【可选】文章标签<br>categories    【可选】文章分类<br>keywords    【可选】文章关键字<br>description    【可选】文章描述<br>top_img    【可选】文章顶部图片<br>cover    【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)<br>comments    【可选】显示文章评论模块(默认 true)<br>toc    【可选】显示文章TOC(默认为设置中toc的enable配置)<br>toc_number    【可选】显示toc_number(默认为设置中toc的number配置)<br>toc_style_simple    【可选】显示 toc 简洁模式<br>copyright    【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)<br>copyright_author    【可选】文章版权模块的文章作者<br>copyright_author_href    【可选】文章版权模块的文章作者链接<br>copyright_url    【可选】文章版权模块的文章连结链接<br>copyright_info    【可选】文章版权模块的版权声明文字<br>mathjax    【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)<br>katex    【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)<br>aplayer    【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置<br>highlight_shrink    【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)<br>aside    【可选】显示侧边栏 (默认 true)</p>
+<p>lnline操作</p>
+<p>inline 在文本里面添加按钮隐藏内容，只限文字</p>
+<p>( content不能包含英文逗号，可用&sbquo;)</p>
+<p>MARKDOWN<br>1</p>
+<span class="hide-inline"><button type="button" class="hide-button" style="background-color: bg;color: color">display
+  </button><span class="hide-content">content</span></span>
+<p>content: 文本内容</p>
+<p>display: 按钮显示的文字(可选)</p>
+<p>bg: 按钮的背景颜色(可选)</p>
+<p>color: 按钮文字的颜色(可选)</p>
+<p>哪个英文字母最酷？ <span class="hide-inline"><button type="button" class="hide-button" style="background-color: #FF7242;color: #fff">查看答案
+  </button><span class="hide-content">因为西装裤(C装酷)</span></span></p>
+<p>门里站着一个人? <span class="hide-inline"><button type="button" class="hide-button" style="">Click
+  </button><span class="hide-content">闪</span></span></p>
+<p>Block</p>
+<p>block独立的block隐藏内容，可以隐藏很多内容，包括图片，代码块等等</p>
+<p>( display 不能包含英文逗号，可用&sbquo;)</p>
+<p>MARKDOWN<br>1<br>2<br>3</p>
+<div class="hide-block"><button type="button" class="hide-button" style="background-color: bg;color: color">display
+    </button><div class="hide-content"><p>content</p>
+</div></div>
+<p>content: 文本内容<br>display: 按钮显示的文字(可选)<br>bg: 按钮的背景颜色(可选)<br>color: 按钮文字的颜色(可选)</p>
+<p>查看答案</p>
+<div class="hide-block"><button type="button" class="hide-button" style="">查看答案
+    </button><div class="hide-content"><p>傻子，怎么可能有答案</p>
+</div></div>
+
+
+
+<p>Toggle</p>
+<p>2.3.0以上支持</p>
+<p>如果你需要展示的内容太多，可以把它隐藏在收缩框里，需要时再把它展开。</p>
+<p>( display 不能包含英文逗号，可用&sbquo;)</p>
+<p>MARKDOWN<br>1<br>2<br>3</p>
+<details class="toggle" style="border: 1px solid bg"><summary class="toggle-button" style="background-color: bg;color: color">display</summary><div class="toggle-content"><p>content</p>
+</div></details>
+
+
+
+<details class="toggle" ><summary class="toggle-button" style="">Butterfly安装方法</summary><div class="toggle-content"><p>在你的博客根目录里</p>
+<p>git clone -b master <a href="https://github.com/jerryc127/hexo-theme-butterfly.git">https://github.com/jerryc127/hexo-theme-butterfly.git</a> themes/Butterfly</p>
+<p>如果想要安装比较新的dev分支，可以</p>
+<p>git clone -b dev <a href="https://github.com/jerryc127/hexo-theme-butterfly.git">https://github.com/jerryc127/hexo-theme-butterfly.git</a> themes/Butterfly</p>
+</div></details>
+
+
+
+<p>Tabs<br>移植于next主题</p>
+<p>使用方法</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br><span class="line"></span><br><span class="line">Unique name   : Unique name of tabs block tag without comma.</span><br><span class="line">                Will be used in #id&#x27;s as prefix for each tab with their index numbers.</span><br><span class="line">                If there are whitespaces in name, for generate #id all whitespaces will replaced by dashes.</span><br><span class="line">                Only for current url of post/page must be unique!</span><br><span class="line">[index]       : Index number of active tab.</span><br><span class="line">                If not specified, first tab (1) will be selected.</span><br><span class="line">                If index is -1, no tab will be selected. It&#x27;s will be something like spoiler.</span><br><span class="line">                Optional parameter.</span><br><span class="line">[Tab caption] : Caption of current tab.</span><br><span class="line">                If not caption specified, unique name with tab index suffix will be used as caption of tab.</span><br><span class="line">                If not caption specified, but specified icon, caption will empty.</span><br><span class="line">                Optional parameter.</span><br><span class="line">[@icon]       : FontAwesome icon name (full-name, look like &#x27;fas fa-font&#x27;)</span><br><span class="line">                Can be specified with or without space; e.g. &#x27;Tab caption @icon&#x27; similar to &#x27;Tab caption@icon&#x27;.</span><br><span class="line">                Optional parameter.</span><br></pre></td></tr></table></figure>
+
+
+
+<p>预设选择第一个</p>
+<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+
+
+<p>预设tabs</p>
+<div class="tabs" id="test2"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test2-1">test2 1</button></li><li class="tab"><button type="button" data-href="#test2-2">test2 2</button></li><li class="tab active"><button type="button" data-href="#test2-3">test2 3</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test2-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test2-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content active" id="test2-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+
+
+<p>没有预设值</p>
+<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">test3 1</button></li><li class="tab"><button type="button" data-href="#test3-2">test3 2</button></li><li class="tab"><button type="button" data-href="#test3-3">test3 3</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+
+
+<p>自定义tab名+只有icon +icon和tab名</p>
+<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">第一个Tab</button></li><li class="tab"><button type="button" data-href="#test4-2"><i class="fab fa-apple-pay" style="text-align: center;"></i></button></li><li class="tab"><button type="button" data-href="#test4-3"><i class="fas fa-bomb"></i>炸弹</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><p><strong>tab名字为第一个Tab</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><p><strong>只有图标 没有Tab名字</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-3"><p><strong>名字+icon</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+
+
+
+
+<h2 id="Button"><a href="#Button" class="headerlink" title="Button"></a>Button</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br><span class="line"></span><br><span class="line">[url]         : 链接</span><br><span class="line">[text]        : 按钮文字</span><br><span class="line">[icon]        : [可选] 图标</span><br><span class="line">[color]       : [可选] 按钮背景顔色(默认style时）</span><br><span class="line">                      按钮字体和边框顔色(outline时)</span><br><span class="line">                      default/blue/pink/red/purple/orange/green</span><br><span class="line">[style]       : [可选] 按钮样式 默认实心</span><br><span class="line">                      outline/留空</span><br><span class="line">[layout]      : [可选] 按钮佈局 默认为line</span><br><span class="line">                      block/留空</span><br><span class="line">[position]    : [可选] 按钮位置 前提是设置了layout为block 默认为左边</span><br><span class="line">                      center/right/留空</span><br><span class="line">[size]        : [可选] 按钮大小</span><br><span class="line">                      larger/留空</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p>This is my website, click the button <a class="btn-beautify " href="https://butterfly.js.org/" 
+  title="Butterfly"><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify " href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify outline" href="https://butterfly.js.org/" 
+  title="Butterfly"><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify outline" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a></p>
+<hr>
+<a class="btn-beautify block" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify block center larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify block right outline larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+
+
+
+<hr>
+<a class="btn-beautify larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify blue larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify pink larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify red larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify purple larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify orange larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify green larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+
+
+
+<hr>
+<div class="btn-center">
+<a class="btn-beautify outline larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline blue larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline pink larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline red larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline purple larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline orange larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline green larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+</div>
+
+
+<h2 id="inlineImg"><a href="#inlineImg" class="headerlink" title="inlineImg"></a>inlineImg</h2><p>主题中的图片都是默认以块级元素显示，如果你想以内联元素显示，可以使用这个标签外挂。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% inlineImg [src] [height] %&#125;</span><br><span class="line"></span><br><span class="line">[src]      :    图片链接</span><br><span class="line">[height]   ：   图片高度限制【可选】</span><br></pre></td></tr></table></figure>
+
+
+
+<p>你看我长得漂亮不</p>
+<p><img src="https://i.loli.net/2021/03/19/2P6ivUGsdaEXSFI.png"></p>
+<p>我觉得很漂亮 <img class="inline-img" src="https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png" style="height:150px"/></p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>text</tag>
+      </tags>
+  </entry>
+</search>
